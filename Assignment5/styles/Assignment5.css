@@ -1,0 +1,34 @@
+body {
+    width: 600px;
+}
+footer {
+    //font-style: italic;
+    text-align: center;
+    position: absolute;
+    top: 637px;
+}
+
+#sectionOne{
+    //display: none;
+    visibility: hidden;
+    background-color:  #ff9966;
+    position: absolute;
+    width: 600px;
+    height: 590px;
+    top: 35px;
+    overflow: scroll;
+    overflow-x:  hidden;
+}
+
+#sectionTwo {
+    //display: none;
+    visibility: hidden;
+    background-color:  #58ACFA;
+    width: 600px;
+    position: absolute;
+    height: 590px;
+    top: 35px;
+    
+    overflow: scroll;
+    overflow-x:  hidden;
+}
