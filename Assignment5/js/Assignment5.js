@@ -40,6 +40,9 @@ function AllCustomersRequest() {
             var output = JSON.parse(objReq.responseText);
             AllCustomersOutput(output);
         }//end if
+        if (objReq.readyState == 4 && objReq.status != 200) {
+            alert("There was an error processing the request!");
+        }
     }//end onreadystatechange function
     
     objReq.open("GET", url, true);
@@ -78,6 +81,9 @@ function OrderHistoryRequest() {
             var output = JSON.parse(objReq.responseText);
             OrderHistoryOutput(output, customerID1);
         }//end if
+        if (objReq.readyState == 4 && objReq.status != 200) {
+            alert("There was an error processing the request!");
+        }
     }//end onreadystatechange function
     
     if (customerID1 != ""){
