@@ -1,5 +1,6 @@
 body {
     width: 600px;
+    background-color:  #BDBDBD;
 }
 footer {
     //font-style: italic;
@@ -7,11 +8,7 @@ footer {
     position: absolute;
     top: 637px;
 }
-
-#sectionOne{
-    //display: none;
-    visibility: hidden;
-    background-color:  #ff9966;
+section {
     position: absolute;
     width: 600px;
     height: 590px;
@@ -20,15 +17,45 @@ footer {
     overflow-x:  hidden;
 }
 
-#sectionTwo {
-    //display: none;
+#sectionOne{
     visibility: hidden;
-    background-color:  #58ACFA;
-    width: 600px;
-    position: absolute;
-    height: 590px;
-    top: 35px;
+}
+
+#sectionTwo {
+    visibility: hidden;
+}
+
+#sectionThree {
+    visibility: hidden;
+}
+
+#divTop {
+    text-align: center;
+}
+
+table, tr, td {
     
-    overflow: scroll;
-    overflow-x:  hidden;
+    border-spacing: 5px;
+    text-align: center;
+    vertical-align: text-top;
+    
+}
+
+th {
+    font-weight: bold;
+    font-size: large;
+}
+
+caption{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    font-weight: bold;
+    font-size: large;
 }
