@@ -11,10 +11,14 @@ footer {
 section {
     position: absolute;
     width: 600px;
-    height: 590px;
-    top: 35px;
+    height: 585px;
+    top: 40px;
     overflow: scroll;
     overflow-x:  hidden;
+}
+
+label {
+    font-size: large;
 }
 
 #sectionOne{
@@ -31,6 +35,10 @@ section {
 
 #divTop {
     text-align: center;
+}
+
+select {
+    font-size: 16px;
 }
 
 
