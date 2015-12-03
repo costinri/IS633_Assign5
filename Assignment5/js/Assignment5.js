@@ -41,7 +41,8 @@ function AllCustomersRequest() {
             AllCustomersOutput(output);
         }//end if
         if (objReq.readyState == 4 && objReq.status != 200) {
-            alert("There was an error processing the request!  readyState = " + objReq.readyState + "  status = " + objReq.status );
+            alert("There was an error processing the request!  readyState = " +
+                   objReq.readyState + "  status = " + objReq.status + " Text: " + objReq.statusText);
         }
     }//end onreadystatechange function
     
