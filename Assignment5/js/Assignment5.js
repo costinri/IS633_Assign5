@@ -41,7 +41,7 @@ function AllCustomersRequest() {
             AllCustomersOutput(output);
         }//end if
         if (objReq.readyState == 4 && objReq.status != 200) {
-            alert("There was an error processing the request!");
+            alert("There was an error processing the request!  readyState = " + objReq.readyState + "  status = " + objReq.status );
         }
     }//end onreadystatechange function
     
@@ -82,7 +82,7 @@ function OrderHistoryRequest() {
             OrderHistoryOutput(output, customerID1);
         }//end if
         if (objReq.readyState == 4 && objReq.status != 200) {
-            alert("There was an error processing the request!");
+            alert("There was an error processing the request!  readyState = " + objReq.readyState + "  status = " + objReq.status );
         }
     }//end onreadystatechange function
     
@@ -128,7 +128,7 @@ function OrdersPlacedRequest() {
             OrdersPlacedOutput(output, customerID2);
         }//end if
         if (objReq.readyState == 4 && objReq.status != 200) {
-            alert("There was an error processing the request!");
+            alert("There was an error processing the request!  readyState = " + objReq.readyState + "  status = " + objReq.status );
         }
     }//end onreadystatechange function
     
