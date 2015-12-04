@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.test.Assignment5"
+        versionCode = "10" 
+        version     = "1.2.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>CostinRiIS633Assign5-2</name>
+
+    <description>
+        Test for adding plugins.
+    </description>
+
+    <author href="" email="">
+        Richard Costin
+    </author>
+    <gap:plugin name = "Cordova-plugin-whitelist" source = "npm" />
+    <allow-navigation href="http://bus-pluto.ad.uab.edu" />
+    <allow-intent href="http://bus-pluto.ad.uab.edu" />
+</widget>
