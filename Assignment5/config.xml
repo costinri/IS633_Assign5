@@ -16,7 +16,7 @@
     <author href="" email="">
         Richard Costin
     </author>
-    <gap:plugin name = "Cordova-plugin-whitelist" source = "npm" />
+    <gap:plugin name = "cordova-plugin-whitelist" source = "npm" />
     <allow-navigation href="http://bus-pluto.ad.uab.edu" />
     <allow-intent href="http://bus-pluto.ad.uab.edu" />
 </widget>
